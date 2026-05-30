@@ -1,0 +1,255 @@
+-- Создание базы данных
+CREATE DATABASE demkaDB;
+GO
+
+USE demkaDB;
+GO
+
+-- 1. Таблица Customer (Клиенты)
+CREATE TABLE Customer (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    name NVARCHAR(100) NOT NULL,
+    inn BIGINT NOT NULL,
+    address NVARCHAR(200),
+    phone NVARCHAR(20),
+    salesman BIT NOT NULL DEFAULT 0,
+    buyer BIT NOT NULL DEFAULT 0
+);
+GO
+
+-- 2. Таблица Role (Роли)
+CREATE TABLE Role (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    title NVARCHAR(50) NOT NULL
+);
+GO
+
+-- 3. Таблица User (Пользователи)
+CREATE TABLE [User] (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    login NVARCHAR(50) NOT NULL UNIQUE,
+    password NVARCHAR(100) NOT NULL,
+    block BIT NOT NULL DEFAULT 0,
+    role_id INT NOT NULL,
+    FOREIGN KEY (role_id) REFERENCES Role(id)
+);
+GO
+
+-- 4. Таблица Product (Продукты)
+CREATE TABLE Product (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    name NVARCHAR(100) NOT NULL,
+    unit NVARCHAR(20) NOT NULL,
+    price DECIMAL(18,2) NOT NULL DEFAULT 0
+);
+GO
+
+-- 5. Таблица Material (Материалы)
+CREATE TABLE Material (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    name NVARCHAR(100) NOT NULL,
+    unit NVARCHAR(20) NOT NULL,
+    price DECIMAL(18,2) NOT NULL DEFAULT 0
+);
+GO
+
+-- 6. Таблица Order (Заказы)
+CREATE TABLE [Order] (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    date DATETIME NOT NULL DEFAULT GETDATE(),
+    unit NVARCHAR(50),
+    customer_id INT NOT NULL,
+    FOREIGN KEY (customer_id) REFERENCES Customer(id)
+);
+GO
+
+-- 7. Таблица OrderItem (Позиции заказа)
+CREATE TABLE OrderItem (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    product_id INT NOT NULL,
+    order_id INT NOT NULL,
+    quantity DECIMAL(18,2) NOT NULL,
+    sale DECIMAL(5,2) NOT NULL DEFAULT 0,
+    FOREIGN KEY (product_id) REFERENCES Product(id),
+    FOREIGN KEY (order_id) REFERENCES [Order](id)
+);
+GO
+
+-- 8. Таблица Specification (Спецификации)
+CREATE TABLE Specification (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    name NVARCHAR(100) NOT NULL,
+    product_id INT NOT NULL,
+    FOREIGN KEY (product_id) REFERENCES Product(id)
+);
+GO
+
+-- 9. Таблица SpecificationItem (Позиции спецификации)
+CREATE TABLE SpecificationItem (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    material_id INT NOT NULL,
+    quantity DECIMAL(18,2) NOT NULL,
+    specification_id INT NOT NULL,
+    FOREIGN KEY (material_id) REFERENCES Material(id),
+    FOREIGN KEY (specification_id) REFERENCES Specification(id)
+);
+GO
+
+-- 10. Таблица Production (Производство)
+CREATE TABLE Production (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    quantity DECIMAL(18,2) NOT NULL,
+    date DATETIME NOT NULL DEFAULT GETDATE(),
+    product_id INT NOT NULL,
+    FOREIGN KEY (product_id) REFERENCES Product(id)
+);
+GO
+
+-- 11. Таблица ProductionMaterial (Использованные материалы в производстве)
+CREATE TABLE ProductionMaterial (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    production_id INT NOT NULL,
+    material_id INT NOT NULL,
+    quantity DECIMAL(18,2) NOT NULL,
+    FOREIGN KEY (production_id) REFERENCES Production(id),
+    FOREIGN KEY (material_id) REFERENCES Material(id)
+);
+GO
+
+-- 12. Таблица sysdiagrams (для диаграмм базы данных)
+CREATE TABLE sysdiagrams (
+    name NVARCHAR(128) NOT NULL,
+    principal_id INT NOT NULL,
+    diagram_id INT PRIMARY KEY IDENTITY(1,1),
+    version INT,
+    definition VARBINARY(MAX)
+);
+GO
+
+-- Создание индексов для оптимизации
+CREATE INDEX IX_Order_customer_id ON [Order](customer_id);
+CREATE INDEX IX_OrderItem_order_id ON OrderItem(order_id);
+CREATE INDEX IX_OrderItem_product_id ON OrderItem(product_id);
+CREATE INDEX IX_Production_product_id ON Production(product_id);
+CREATE INDEX IX_ProductionMaterial_production_id ON ProductionMaterial(production_id);
+CREATE INDEX IX_ProductionMaterial_material_id ON ProductionMaterial(material_id);
+CREATE INDEX IX_Specification_product_id ON Specification(product_id);
+CREATE INDEX IX_SpecificationItem_specification_id ON SpecificationItem(specification_id);
+CREATE INDEX IX_SpecificationItem_material_id ON SpecificationItem(material_id);
+CREATE INDEX IX_User_role_id ON [User](role_id);
+GO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Добавление ролей
+INSERT INTO Role (title) VALUES 
+('Администратор'),
+('Менеджер'),
+('Кладовщик'),
+('Бухгалтер');
+GO
+
+-- Добавление клиентов
+INSERT INTO Customer (name, inn, address, phone, salesman, buyer) VALUES 
+('ООО "Ромашка"', 1234567890123, 'г. Москва, ул. Ленина, 1', '+7(495)123-45-67', 1, 1),
+('ИП Иванов', 9876543210987, 'г. Санкт-Петербург, пр. Невский, 2', '+7(812)765-43-21', 0, 1),
+('ЗАО "ТехноСервис"', 5555555555555, 'г. Новосибирск, ул. Советская, 3', '+7(383)111-22-33', 1, 1);
+GO
+
+-- Добавление материалов
+INSERT INTO Material (name, unit, price) VALUES 
+('Древесина сосна', 'м³', 8500.00),
+('Лак акриловый', 'л', 450.00),
+('Краска белая', 'кг', 320.00),
+('Шурупы', 'кг', 150.00),
+('Клей ПВА', 'л', 120.00);
+GO
+
+-- Добавление продуктов
+INSERT INTO Product (name, unit, price) VALUES 
+('Стул деревянный', 'шт', 2500.00),
+('Стол обеденный', 'шт', 5500.00),
+('Шкаф', 'шт', 12000.00);
+GO
+
+-- Добавление пользователей
+INSERT INTO [User] (login, password, block, role_id) VALUES 
+('admin', 'admin123', 0, 1),
+('manager1', 'pass123', 0, 2),
+('storekeeper', 'pass456', 1, 3);
+GO
+
+-- Добавление спецификаций
+INSERT INTO Specification (name, product_id) VALUES 
+('Спецификация стула', 1),
+('Спецификация стола', 2),
+('Спецификация шкафа', 3);
+GO
+
+-- Добавление позиций спецификаций
+INSERT INTO SpecificationItem (material_id, quantity, specification_id) VALUES 
+(1, 0.05, 1), (2, 0.3, 1), (5, 0.1, 1),  -- материалы для стула
+(1, 0.15, 2), (2, 0.5, 2), (3, 0.3, 2), (5, 0.2, 2),  -- материалы для стола
+(1, 0.8, 3), (2, 1.2, 3), (3, 0.8, 3), (4, 0.5, 3);  -- материалы для шкафа
+GO
+
+-- Добавление заказов
+INSERT INTO [Order] (date, unit, customer_id) VALUES 
+(GETDATE(), 'Склад №1', 1),
+(DATEADD(day, -5, GETDATE()), 'Склад №2', 2),
+(DATEADD(day, -10, GETDATE()), 'Склад №1', 3);
+GO
+
+-- Добавление позиций заказов
+INSERT INTO OrderItem (product_id, order_id, quantity, sale) VALUES 
+(1, 1, 10, 5), (2, 1, 5, 0),   -- заказ 1
+(1, 2, 3, 10), (3, 2, 1, 15),  -- заказ 2
+(2, 3, 8, 5), (3, 3, 2, 10);   -- заказ 3
+GO
+
+-- Добавление производства
+INSERT INTO Production (quantity, date, product_id) VALUES 
+(20, GETDATE(), 1),
+(15, DATEADD(day, -3, GETDATE()), 2),
+(8, DATEADD(day, -7, GETDATE()), 3);
+GO
+
+-- Добавление использованных материалов в производстве
+INSERT INTO ProductionMaterial (production_id, material_id, quantity) VALUES 
+(1, 1, 1.0), (1, 2, 6), (1, 5, 2),    -- для производства стульев
+(2, 1, 2.25), (2, 2, 7.5), (2, 3, 4.5), (2, 5, 3),  -- для производства столов
+(3, 1, 6.4), (3, 2, 9.6), (3, 3, 6.4), (3, 4, 4);    -- для производства шкафов
+GO
+
+
+
+
+-- Проверка всех таблиц
+SELECT * FROM Customer;
+SELECT * FROM [User];
+SELECT * FROM Role;
+SELECT * FROM Product;
+SELECT * FROM Material;
+SELECT * FROM [Order];
+SELECT * FROM OrderItem;
+SELECT * FROM Specification;
+SELECT * FROM SpecificationItem;
+SELECT * FROM Production;
+SELECT * FROM ProductionMaterial;
+GO
+

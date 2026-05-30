@@ -1,0 +1,96 @@
+C:\Users\belik\source\repos\finish\finish\bin\Debug\finish.exe.config
+C:\Users\belik\source\repos\finish\finish\bin\Debug\finish.exe
+C:\Users\belik\source\repos\finish\finish\bin\Debug\finish.pdb
+C:\Users\belik\source\repos\finish\finish\bin\Debug\EntityFramework.dll
+C:\Users\belik\source\repos\finish\finish\bin\Debug\EntityFramework.xml
+C:\Users\belik\source\repos\finish\finish\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\belik\source\repos\finish\finish\obj\Debug\MilkCombinat_Polesye.csproj.AssemblyReference.cache
+C:\Users\belik\source\repos\finish\finish\obj\Debug\finish.exe.config
+C:\Users\belik\source\repos\finish\finish\obj\Debug\Pages\AdminPage.baml
+C:\Users\belik\source\repos\finish\finish\obj\Debug\MainWindow.g.cs
+C:\Users\belik\source\repos\finish\finish\obj\Debug\Pages\AdminPage.g.cs
+C:\Users\belik\source\repos\finish\finish\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\belik\source\repos\finish\finish\obj\Debug\Pages\MainPage.g.cs
+C:\Users\belik\source\repos\finish\finish\obj\Debug\App.g.cs
+C:\Users\belik\source\repos\finish\finish\obj\Debug\finish_Content.g.cs
+C:\Users\belik\source\repos\finish\finish\obj\Debug\finish_MarkupCompile.cache
+C:\Users\belik\source\repos\finish\finish\obj\Debug\finish_MarkupCompile.lref
+C:\Users\belik\source\repos\finish\finish\obj\Debug\MainWindow.baml
+C:\Users\belik\source\repos\finish\finish\obj\Debug\Pages\LoginPage.baml
+C:\Users\belik\source\repos\finish\finish\obj\Debug\Pages\MainPage.baml
+C:\Users\belik\source\repos\finish\finish\obj\Debug\finish.g.resources
+C:\Users\belik\source\repos\finish\finish\obj\Debug\finish.Properties.Resources.resources
+C:\Users\belik\source\repos\finish\finish\obj\Debug\MilkCombinat_Polesye.csproj.GenerateResource.cache
+C:\Users\belik\source\repos\finish\finish\obj\Debug\MilkCombinat_Polesye.csproj.CoreCompileInputs.cache
+C:\Users\belik\source\repos\finish\finish\obj\Debug\MilkComb.4D0DA75B.Up2Date
+C:\Users\belik\source\repos\finish\finish\obj\Debug\finish.exe
+C:\Users\belik\source\repos\finish\finish\obj\Debug\finish.pdb
+C:\Users\belik\source\repos\finish\finish\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Buffers.dll
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.IO.Pipelines.dll
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Memory.dll
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Text.Json.dll
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\belik\source\repos\finish\finish\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Buffers.xml
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.IO.Pipelines.xml
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Memory.xml
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Text.Json.xml
+C:\Users\belik\source\repos\finish\finish\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\belik\source\repos\finish\finish\obj\Debug\Validation\ValidationWindow.g.cs
+C:\Users\belik\source\repos\finish\finish\obj\Debug\Validation\ValidationWindow.baml
+C:\Users\belik\source\repos\finish\finish\obj\Debug\Dictionary.baml
+C:\Users\belik\source\repos\finish\finish\obj\Debug\App.baml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\finish.exe.config
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\finish.exe
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\finish.pdb
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\EntityFramework.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Buffers.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Memory.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Text.Json.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\EntityFramework.xml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Buffers.xml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Memory.xml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Text.Json.xml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\MilkCombinat_Polesye.csproj.AssemblyReference.cache
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\finish.exe.config
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\Dictionary.baml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\Pages\AdminPage.baml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\MainWindow.g.cs
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\Pages\AdminPage.g.cs
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\App.g.cs
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\finish_Content.g.cs
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\finish_MarkupCompile.cache
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\finish_MarkupCompile.lref
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\App.baml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\MainWindow.baml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\Pages\LoginPage.baml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\Pages\MainPage.baml
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\finish.g.resources
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\finish.Properties.Resources.resources
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\MilkCombinat_Polesye.csproj.GenerateResource.cache
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\MilkCombinat_Polesye.csproj.CoreCompileInputs.cache
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\MilkComb.4D0DA75B.Up2Date
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\finish.exe
+C:\Users\Alena\Downloads\finish (2)\finish\finish\obj\Debug\finish.pdb
