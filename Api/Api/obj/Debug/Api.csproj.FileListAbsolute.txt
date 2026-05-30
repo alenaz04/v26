@@ -1,0 +1,114 @@
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\Api.exe.config
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\Api.exe
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\Api.pdb
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Buffers.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.IO.Pipelines.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Memory.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Text.Json.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Buffers.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.IO.Pipelines.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Memory.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Text.Json.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\Api.csproj.AssemblyReference.cache
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\MainWindow.baml
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\MainWindow.g.cs
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\App.g.cs
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\Api_MarkupCompile.cache
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\Api.g.resources
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\Api.Properties.Resources.resources
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\Api.csproj.GenerateResource.cache
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\Api.csproj.CoreCompileInputs.cache
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\Api.csproj.Up2Date
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\Api.exe
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\Api.pdb
+C:\Users\krapi\у(ч)ёба\демка\Api\Api\obj\Debug\Api.exe.config
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\Api.exe.config
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\Api.exe
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\Api.pdb
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Buffers.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Memory.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Text.Json.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Buffers.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Memory.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Text.Json.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\Api.csproj.AssemblyReference.cache
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\Api.exe.config
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\MainWindow.baml
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\MainWindow.g.cs
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\App.g.cs
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\Api_MarkupCompile.cache
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\Api.g.resources
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\Api.Properties.Resources.resources
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\Api.csproj.GenerateResource.cache
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\Api.csproj.CoreCompileInputs.cache
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\Api.csproj.Up2Date
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\Api.exe
+C:\Users\Alena\Downloads\фаю\демка (1) (1)\демка\Api\Api\obj\Debug\Api.pdb
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\Api.exe.config
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\Api.exe
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\Api.pdb
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Buffers.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Memory.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Text.Json.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Buffers.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Memory.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Text.Json.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\Api.csproj.AssemblyReference.cache
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\Api.exe.config
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\MainWindow.baml
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\MainWindow.g.cs
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\App.g.cs
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\Api_MarkupCompile.cache
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\Api.g.resources
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\Api.Properties.Resources.resources
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\Api.csproj.GenerateResource.cache
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\Api.csproj.CoreCompileInputs.cache
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\Api.csproj.Up2Date
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\Api.exe
+C:\Users\Alena\Desktop\фаю\26\Api\Api\obj\Debug\Api.pdb
