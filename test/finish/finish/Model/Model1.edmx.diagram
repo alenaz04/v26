@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4b682d774bb8406bb24e23c62b31fe2e" Name="Diagram1">
+        <EntityTypeShape EntityType="demkaDBModel.Customer" Width="1.5" PointX="1.5" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.Material" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.Order" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.OrderItem" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.Product" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.Production" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.ProductionMaterial" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.Role" Width="1.5" PointX="5.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.Specification" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.SpecificationItem" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="demkaDBModel.User" Width="1.5" PointX="8" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="demkaDBModel.FK__Order__customer___48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="demkaDBModel.FK__Productio__mater__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="demkaDBModel.FK__Specifica__mater__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="demkaDBModel.FK__OrderItem__order__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="demkaDBModel.FK__OrderItem__produ__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="demkaDBModel.FK__Productio__produ__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="demkaDBModel.FK__Specifica__produ__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="demkaDBModel.FK__Productio__produ__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="demkaDBModel.FK__User__role_id__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="demkaDBModel.FK__Specifica__speci__5441852A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
